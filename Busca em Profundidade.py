@@ -1,7 +1,8 @@
 
 def printVert(d,f,N):
+    print("\n-----Resultado:-----")
     for i in range(N):
-        print("Vértice",i,":","Ida:",d[i],"Volta:",f[i])
+        print("Vértice",i,":","Ida:",d[i],"Volta:",f[i],"\n")
 
 def loadlista():
     arquivo = open('Grafo.txt','r')
